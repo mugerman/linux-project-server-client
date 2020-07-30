@@ -1,0 +1,23 @@
+participants:
+Chen Frenkel 205562846
+Alon Mugerman 311143366
+
+
+
+command to compile client: "gcc client2.c -o client2 -lm"
+command to compile server: "gcc server.c -o server"
+
+
+
+we used these APIs:
+* עבודה עם מספר ארגומנטים (argc, argv)
+* עבודה עם null terminated strings בשפת C למשל שימוש ב strcat(3), strstr(3), strchar(3), strtok3) ואחרים
+* עבודה עם קבצים באמצעות FILE API של C (fread, fwrite, fopen etc.)
+* עבודה עם קבצים בעזרת read וwrite.
+* עבודה עם IPv4.
+* עבודה עם Stream sockets 
+* עבודה עם IP multiplexing - select
+* עבודה עם poll 
+* עבודה עם ריבוי משימות fork(2), wait(2), וכדומה
+* טיפול בsignalים.
+* שימוש בספריה המתמטית - כולל לינק בעזרת -lm.
